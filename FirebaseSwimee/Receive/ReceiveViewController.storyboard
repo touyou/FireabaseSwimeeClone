@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XOt-dK-MhF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XOt-dK-MhF">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,12 +19,66 @@
                     <view key="view" contentMode="scaleToFill" id="hC2-dz-6Fy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SeachID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnX-4n-8M6">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nlE-l7-eHF">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Post" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVx-7s-I6n">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g6C-uS-xg5">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="g6C-uS-xg5" secondAttribute="height" multiplier="343:128" id="c3g-or-EzN"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGE-ww-oFQ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="DMt-Xp-xDw"/>
+                                    <constraint firstAttribute="height" constant="81" id="jyn-uD-Di8"/>
+                                </constraints>
+                                <state key="normal" title="受信"/>
+                                <connections>
+                                    <action selector="selectReceive" destination="XOt-dK-MhF" eventType="touchUpInside" id="3u9-2m-4Ki"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g6C-uS-xg5" firstAttribute="top" secondItem="sVx-7s-I6n" secondAttribute="bottom" constant="8" id="7Ji-xI-AF0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nlE-l7-eHF" secondAttribute="trailing" id="7OS-yl-n9e"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="xnX-4n-8M6" secondAttribute="leading" id="Bil-ZG-3OM"/>
+                            <constraint firstItem="RGE-ww-oFQ" firstAttribute="top" secondItem="g6C-uS-xg5" secondAttribute="bottom" constant="57" id="Cvj-18-Zin"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g6C-uS-xg5" secondAttribute="trailing" id="G5D-kc-huR"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="nlE-l7-eHF" secondAttribute="leading" id="Hv4-ne-Jpk"/>
+                            <constraint firstItem="sVx-7s-I6n" firstAttribute="top" secondItem="nlE-l7-eHF" secondAttribute="bottom" constant="18" id="KcS-th-xuC"/>
+                            <constraint firstItem="nlE-l7-eHF" firstAttribute="top" secondItem="xnX-4n-8M6" secondAttribute="bottom" constant="8" id="Lqf-tm-Yu9"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="sVx-7s-I6n" secondAttribute="leading" id="MbH-F6-eHp"/>
+                            <constraint firstItem="xnX-4n-8M6" firstAttribute="top" secondItem="qCS-ju-taC" secondAttribute="bottom" constant="58" id="Q7o-kl-OK4"/>
+                            <constraint firstItem="RGE-ww-oFQ" firstAttribute="centerX" secondItem="hC2-dz-6Fy" secondAttribute="centerX" id="U2B-cU-2uL"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="g6C-uS-xg5" secondAttribute="leading" id="fLe-bY-SpH"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="postTextView" destination="g6C-uS-xg5" id="V9e-gN-6av"/>
+                        <outlet property="searchIDTextField" destination="nlE-l7-eHF" id="1gh-es-LlE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZBW-Q5-Jw5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="154" y="225"/>
+            <point key="canvasLocation" x="152.80000000000001" y="224.4377811094453"/>
         </scene>
     </scenes>
 </document>

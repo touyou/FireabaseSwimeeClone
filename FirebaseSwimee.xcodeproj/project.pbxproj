@@ -19,6 +19,10 @@
 		3923D5501DC04FF800474159 /* TransmitViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3923D54F1DC04FF800474159 /* TransmitViewController.storyboard */; };
 		3923D5521DC050AC00474159 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3923D5511DC050AC00474159 /* TabBarViewController.swift */; };
 		3923D5541DC0510100474159 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3923D5531DC0510100474159 /* StoryboardInstantiable.swift */; };
+		46F6D5A41DC4482E00E44079 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46F6D5A31DC4482E00E44079 /* GoogleService-Info.plist */; };
+		65F8795AF714DA1AB0E580A6 /* Pods_FirebaseSwimeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D7077705347573DFFE1E22 /* Pods_FirebaseSwimeeTests.framework */; };
+		C7F2FA5590224AA4914D9762 /* Pods_FirebaseSwimeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E3FB1959BF5067809EB98D /* Pods_FirebaseSwimeeUITests.framework */; };
+		F91D142B14DB76A6A102E235 /* Pods_FirebaseSwimee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EC52A0393CC94ABE17266D /* Pods_FirebaseSwimee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02BD238E4DDACD350C6A57BE /* Pods-FirebaseSwimeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSwimeeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSwimeeTests/Pods-FirebaseSwimeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		22D7077705347573DFFE1E22 /* Pods_FirebaseSwimeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSwimeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3923D50D1DC04AFE00474159 /* FirebaseSwimee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSwimee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3923D5101DC04AFE00474159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3923D5151DC04AFE00474159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +63,14 @@
 		3923D54F1DC04FF800474159 /* TransmitViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TransmitViewController.storyboard; path = Transmit/TransmitViewController.storyboard; sourceTree = "<group>"; };
 		3923D5511DC050AC00474159 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		3923D5531DC0510100474159 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		46F6D5A31DC4482E00E44079 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52EC52A0393CC94ABE17266D /* Pods_FirebaseSwimee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSwimee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661844C256905FA3E99BC97C /* Pods-FirebaseSwimeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSwimeeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSwimeeUITests/Pods-FirebaseSwimeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72F2E566E6DC006CAE8D2FB3 /* Pods-FirebaseSwimeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSwimeeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSwimeeUITests/Pods-FirebaseSwimeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80E3FB1959BF5067809EB98D /* Pods_FirebaseSwimeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSwimeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9587071B33E672FF99836BF2 /* Pods-FirebaseSwimee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSwimee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSwimee/Pods-FirebaseSwimee.debug.xcconfig"; sourceTree = "<group>"; };
+		C5335AC8A32305E22A03A6F8 /* Pods-FirebaseSwimeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSwimeeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSwimeeTests/Pods-FirebaseSwimeeTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD006435920EC8AB3D61F49B /* Pods-FirebaseSwimee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSwimee.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSwimee/Pods-FirebaseSwimee.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F91D142B14DB76A6A102E235 /* Pods_FirebaseSwimee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F8795AF714DA1AB0E580A6 /* Pods_FirebaseSwimeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F2FA5590224AA4914D9762 /* Pods_FirebaseSwimeeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07534CEE84E3A5E384A4041A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9587071B33E672FF99836BF2 /* Pods-FirebaseSwimee.debug.xcconfig */,
+				DD006435920EC8AB3D61F49B /* Pods-FirebaseSwimee.release.xcconfig */,
+				02BD238E4DDACD350C6A57BE /* Pods-FirebaseSwimeeTests.debug.xcconfig */,
+				C5335AC8A32305E22A03A6F8 /* Pods-FirebaseSwimeeTests.release.xcconfig */,
+				72F2E566E6DC006CAE8D2FB3 /* Pods-FirebaseSwimeeUITests.debug.xcconfig */,
+				661844C256905FA3E99BC97C /* Pods-FirebaseSwimeeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3923D5041DC04AFE00474159 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +121,8 @@
 				3923D5241DC04AFE00474159 /* FirebaseSwimeeTests */,
 				3923D52F1DC04AFE00474159 /* FirebaseSwimeeUITests */,
 				3923D50E1DC04AFE00474159 /* Products */,
+				07534CEE84E3A5E384A4041A /* Pods */,
+				B25FBF4C22F5BF9B1A005415 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +148,7 @@
 				3923D5171DC04AFE00474159 /* Assets.xcassets */,
 				3923D5191DC04AFE00474159 /* LaunchScreen.storyboard */,
 				3923D51C1DC04AFE00474159 /* Info.plist */,
+				46F6D5A31DC4482E00E44079 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseSwimee;
 			sourceTree = "<group>";
@@ -156,6 +189,16 @@
 			name = Transmit;
 			sourceTree = "<group>";
 		};
+		B25FBF4C22F5BF9B1A005415 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EC52A0393CC94ABE17266D /* Pods_FirebaseSwimee.framework */,
+				22D7077705347573DFFE1E22 /* Pods_FirebaseSwimeeTests.framework */,
+				80E3FB1959BF5067809EB98D /* Pods_FirebaseSwimeeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3923D5351DC04AFE00474159 /* Build configuration list for PBXNativeTarget "FirebaseSwimee" */;
 			buildPhases = (
+				1762AB34EB938AA58922B3B5 /* [CP] Check Pods Manifest.lock */,
 				3923D5091DC04AFE00474159 /* Sources */,
 				3923D50A1DC04AFE00474159 /* Frameworks */,
 				3923D50B1DC04AFE00474159 /* Resources */,
+				6362378037E7446A985530B9 /* [CP] Embed Pods Frameworks */,
+				9FE680E5E5F8615C2FC2C015 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3923D5381DC04AFE00474159 /* Build configuration list for PBXNativeTarget "FirebaseSwimeeTests" */;
 			buildPhases = (
+				AB03F18FDFAE761E92AC4555 /* [CP] Check Pods Manifest.lock */,
 				3923D51D1DC04AFE00474159 /* Sources */,
 				3923D51E1DC04AFE00474159 /* Frameworks */,
 				3923D51F1DC04AFE00474159 /* Resources */,
+				951A570E15F7D6F2D6945952 /* [CP] Embed Pods Frameworks */,
+				4E77709D17C59DD197333466 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3923D53B1DC04AFE00474159 /* Build configuration list for PBXNativeTarget "FirebaseSwimeeUITests" */;
 			buildPhases = (
+				0B5A16CE322554052298F52B /* [CP] Check Pods Manifest.lock */,
 				3923D5281DC04AFE00474159 /* Sources */,
 				3923D5291DC04AFE00474159 /* Frameworks */,
 				3923D52A1DC04AFE00474159 /* Resources */,
+				39BCBC08BCE3FF29BC0BD571 /* [CP] Embed Pods Frameworks */,
+				C36FCB316FF5F459B318E33C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,7 +276,7 @@
 				TargetAttributes = {
 					3923D50C1DC04AFE00474159 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = SLHYE76MHB;
+						DevelopmentTeam = B4S4333JDW;
 						ProvisioningStyle = Automatic;
 					};
 					3923D5201DC04AFE00474159 = {
@@ -271,6 +323,7 @@
 				3923D5501DC04FF800474159 /* TransmitViewController.storyboard in Resources */,
 				3923D54E1DC04FDE00474159 /* ReceiveViewController.storyboard in Resources */,
 				3923D5161DC04AFE00474159 /* Main.storyboard in Resources */,
+				46F6D5A41DC4482E00E44079 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +342,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B5A16CE322554052298F52B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1762AB34EB938AA58922B3B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39BCBC08BCE3FF29BC0BD571 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSwimeeUITests/Pods-FirebaseSwimeeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E77709D17C59DD197333466 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSwimeeTests/Pods-FirebaseSwimeeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6362378037E7446A985530B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSwimee/Pods-FirebaseSwimee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		951A570E15F7D6F2D6945952 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSwimeeTests/Pods-FirebaseSwimeeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE680E5E5F8615C2FC2C015 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSwimee/Pods-FirebaseSwimee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB03F18FDFAE761E92AC4555 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C36FCB316FF5F459B318E33C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSwimeeUITests/Pods-FirebaseSwimeeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3923D5091DC04AFE00474159 /* Sources */ = {
@@ -447,12 +638,13 @@
 		};
 		3923D5361DC04AFE00474159 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9587071B33E672FF99836BF2 /* Pods-FirebaseSwimee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SLHYE76MHB;
+				DEVELOPMENT_TEAM = B4S4333JDW;
 				INFOPLIST_FILE = FirebaseSwimee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tv.shinoki.FirebaseSwimee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.touyou.FirebaseSwimee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -460,12 +652,13 @@
 		};
 		3923D5371DC04AFE00474159 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD006435920EC8AB3D61F49B /* Pods-FirebaseSwimee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SLHYE76MHB;
+				DEVELOPMENT_TEAM = B4S4333JDW;
 				INFOPLIST_FILE = FirebaseSwimee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tv.shinoki.FirebaseSwimee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.touyou.FirebaseSwimee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -473,6 +666,7 @@
 		};
 		3923D5391DC04AFE00474159 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02BD238E4DDACD350C6A57BE /* Pods-FirebaseSwimeeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +682,7 @@
 		};
 		3923D53A1DC04AFE00474159 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5335AC8A32305E22A03A6F8 /* Pods-FirebaseSwimeeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,6 +698,7 @@
 		};
 		3923D53C1DC04AFE00474159 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F2E566E6DC006CAE8D2FB3 /* Pods-FirebaseSwimeeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SLHYE76MHB;
@@ -517,6 +713,7 @@
 		};
 		3923D53D1DC04AFE00474159 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661844C256905FA3E99BC97C /* Pods-FirebaseSwimeeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SLHYE76MHB;
@@ -548,6 +745,7 @@
 				3923D5371DC04AFE00474159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3923D5381DC04AFE00474159 /* Build configuration list for PBXNativeTarget "FirebaseSwimeeTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +754,7 @@
 				3923D53A1DC04AFE00474159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3923D53B1DC04AFE00474159 /* Build configuration list for PBXNativeTarget "FirebaseSwimeeUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +763,7 @@
 				3923D53D1DC04AFE00474159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
